@@ -4,7 +4,7 @@ project:
   title: 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
   description: Presentation given at the EAGE Near Surface Geoscience 2025 conference
   affiliations:
-    - id:
+    - id: ubc
       name: "Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia"
     - id: jogmec
       name: "Japan Organization for Metals and Energy Security"
