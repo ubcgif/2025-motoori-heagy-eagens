@@ -34,25 +34,25 @@ physical property measurements from the area.
 
 Seafloor hydrothermal deposits are polymetallic massive sulfide ore
 deposits formed by the precipitation of metal components contained in
-hot water ejected from the seafloor (JOGMEC, 2020). The depth of the sea
+hot water ejected from the seafloor [@jogmec_jogmec_2020]. The depth of the sea
 in the regions where these deposits are found ranges from 700-2000m. The
 ore bodies extend hundreds of meters horizontally and tens of meters
-vertically and are exposed on the sea floor (Morozumi et al., 2020). A
+vertically and are exposed on the sea floor [@morozumi_additional_2020]. A
 lab-based petrophysics study indicates that resistivity and
 chargeability are diagnostic physical properties, with the hydrothermal
 deposits expected to be more conductive and more chargeable than
-seawater and host rock (Nakayama et al., 2012). Time-domain
+seawater and host rock [@nakayama_electric_2012]. Time-domain
 electromagnetic methods (TEM) are sensitive to variations in
 resistivity. The WISTEM (Waseda integrated seafloor time-domain
 electromagnetic exploration system) has been proven to be effective, and
-surveys have been conducted in several areas (Nakayama and Saito, 2016).
+surveys have been conducted in several areas [@nakayama_practical_2016].
 Some "fixed type" measurements are collected when the WISTEM system is
 landed on the seafloor. In this type of measurement, negative
 transients, due to induced polarization effects (IP), have been observed
-for data collected over known deposits (Nakayama, Motoori, Saito, 2019).
+for data collected over known deposits [@nakayama_application_2019].
 The survey we will focus on was conducted by JOGMEC in the Okinawa
 Trough in 2018. IP effects are particularly relevant when chargeable
-materials, namely sulfides, are present. Motoori and Heagy (2024)
+materials, namely sulfides, are present. @motoori_synthetic_2024
 simulated and illustrated field plots about negative transients due to
 the IP effect, performed a 1D synthetic study and showed sensitivity to
 all IP parameters.
@@ -66,12 +66,12 @@ this can affect the data. "Reference measurements" where WISTEM measures
 at a height of 100m above the seafloor are used for estimating the
 system response. In this study, we first perform a simulation to study
 the effect of the pressure vessel using the two-dimensional cylindrical
-in SimPEG (Cockett, 2015; Heagy, 2017) and simpegEMIP (Kang, 2016).
+in SimPEG [@cockett_simpeg_2015; @heagy_framework_2017] and simpegEMIP [@kang_recovering_2016].
 Second, we deconvolve reference data with the analytical response of
 seawater to obtain a linear filter that captures the system response.
 This filter will then be used in subsequent simulations and inversions.
 Finally, we perform a one-dimensional IP inversion using Empymod
-(Werthmüller, 2017) with the fixed-type data containing negative
+[@werthmuller_open-source_2017] with the fixed-type data containing negative
 transients.
 
 **Simulating pressure vessel impacts**
@@ -87,7 +87,7 @@ non-magnetic.
 For numerical simulations, we use SimPEG and simpegEMIP, which employ
 the finite volume method in space and the backward Euler method in time.
 To describe the IP effects, we refer to the chargeable model in the
-following Pelton et al. (1978).
+following [@pelton_mineral_1978].
 
 ![A black text on a white background AI-generated content may be
 incorrect.](./media/image1.jpg){width="4.1331856955380575in"
@@ -149,8 +149,7 @@ assumed to be common across all layers. The seawater layer is fixed at a
 conductivity value of 0.304 (Ω·m) as measured using the CTD
 (Conductivity, Temperature, and Depth sensor) attached to the ROV. The
 inversion is performed using L2 norms for smallness and smoothness
-regularization terms and Gauss-Newton optimization (Oldenburg and Li,
-2005). We use Empymod for the forward simulation. The Jacobian matrix is
+regularization terms and Gauss-Newton optimization [@oldenburg_inversion_2005]. We use Empymod for the forward simulation. The Jacobian matrix is
 approximated using finite differences.
 
 ![A group of graphs showing different types of data AI-generated content
@@ -205,8 +204,10 @@ University) and Dr. Masashi Endo (RedStoneGEO) for their advice on
 WISTEM.
 
 **References**
+```{bibliography}
+```
 
-Cockett, R., Kang, S., Heagy, L. J., Pidlisecky, A., & Oldenburg, D. W.
+<!-- Cockett, R., Kang, S., Heagy, L. J., Pidlisecky, A., & Oldenburg, D. W.
 (2015). SimPEG: An open source framework for simulation and gradient
 based parameter estimation in geophysical applications. Computers &
 Geosciences, 85, 142--154.
@@ -258,4 +259,4 @@ Pelton, W. H., Ward, S. H., Hallof, P. G., Sill, W. R., & Nelson, P. H.
 MULTIFREQUENCY IP. GEOPHYSICS, 43(3), 588--609.
 
 Werthmüller, D. (2017). An open-source full 3D electromagnetic modeler
-for 1D VTI media in Python: Empymod. GEOPHYSICS, 82(6), WB9--WB19.
+for 1D VTI media in Python: Empymod. GEOPHYSICS, 82(6), WB9--WB19. -->
