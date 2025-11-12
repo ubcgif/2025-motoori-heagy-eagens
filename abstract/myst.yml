@@ -45,8 +45,9 @@ project:
     ROV: Remotely Operated Vehicle
   # github:
   thumbnail: thumbnail.jpg
-  banner: banner.jpg
-  bibliography: EAGE-NS-2025-Abstract.bib
+  # banner: banner.png Can I go without a banner?
+  bibtex_bibfiles: 
+    - EAGE-NS-2025-Abstract.bib
   # keywords:
   #   - Numerical simulations
   #   - Inversion
