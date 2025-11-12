@@ -2,11 +2,11 @@ version: 1
 project:
   id: ubcgif-2025-motoori-et-al-eage-ns
   title: 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
-  description: Presentation given at the
+  description: Presentation given at the EAGE Near Surface Geoscience 2025 conference
   affiliations:
-    ubc:
+    - id:
       name: "Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia"
-    jogmec:
+    - id: jogmec
       name: "Japan Organization for Metals and Energy Security"
 
   authors:
