@@ -45,7 +45,7 @@ project:
     ROV: Remotely Operated Vehicle
   # github:
   thumbnail: thumbnail.jpg
-  banner: banner.jpg
+  banner: banner.png
   bibtex_bibfiles: 
     - EAGE-NS-2025-Abstract.bib
   # keywords:
