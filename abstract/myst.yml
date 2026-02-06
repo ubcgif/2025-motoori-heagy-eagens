@@ -3,35 +3,33 @@ project:
   id: ubcgif-2025-motoori-et-al-eage-ns
   title: 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
   description: Presentation given at the EAGE Near Surface Geoscience 2025 conference
-  affiliations:
-    - id: ubc
-      name: "Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia"
-    - id: jogmec
-      name: "Japan Organization for Metals and Energy Security"
-
   authors:
     - name: Masayuki Motoori
       email: masayuki.motoori@eoas.ubc.ca
       corresponding: true
       orcid: 0009-0006-1889-8914
-      affiliations: [ubc, jogmec]
+      affiliations:
+        - id: ubc
+          name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+        - id: jogmec
+          name: Japan Organization for Metals and Energy Security
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
       orcid: 0000-0002-1551-5926
-      affiliations: [ubc]
+      affiliation: ubc
     - name: Gosuke Hoshino
-      affiliations: [jogmec]
+      affiliation: jogmec
     - name: Kunihito Yamamoto
-      affiliations: [jogmec]
-    - name: Haruhisa Morozumi 
-      affiliations: [jogmec]
-    - name: Kunpei Nagase 
-      affiliations: [jogmec]
+      affiliation: jogmec
+    - name: Haruhisa Morozumi
+      affiliation: jogmec
+    - name: Kunpei Nagase
+      affiliation: jogmec
     - name: Shingo Sugimoto
-      affiliations: [jogmec]
+      affiliation: jogmec
   # subject: Electromagnetics
   venue:
-    title:  "NSG 2025: 6th Conference on Geophysics for Mineral Exploration and Mining"
+    title: "NSG 2025: 6th Conference on Geophysics for Mineral Exploration and Mining"
   # url: CONFERENCE URL
   # license: CC-BY-4.0
   # open_access: true
@@ -41,12 +39,12 @@ project:
     TEM: time-domain electromagnetic methods
     IP: induced polarization effects
     PV: pressure vessel
-    WISTEM: waseda integrated seafloor time-domain electromagnetic exploration system
+    WISTEM: Waseda integrated seafloor time-domain electromagnetic exploration system
     ROV: Remotely Operated Vehicle
   # github:
   thumbnail: thumbnail.jpg
-  # banner: banner.png Can I go without a banner?
-  bibtex_bibfiles: 
+  banner: banner.png
+  bibtex_bibfiles:
     - EAGE-NS-2025-Abstract.bib
   # keywords:
   #   - Numerical simulations
@@ -54,7 +52,7 @@ project:
   #   - Computational methods
   #   - Software
 Main objectives: Estimate induced polarization parameters for hydrothermal deposits from deep-sea time-domain electromagnetic data
-New aspects: Estimate a linear filter characterizing new marine TEM system response, Marine EM inversion with IP parameters, Open-source software application 
+New aspects: Estimate a linear filter characterizing new marine TEM system response, Marine EM inversion with IP parameters, Open-source software application
 site:
   template: article-theme
   actions:

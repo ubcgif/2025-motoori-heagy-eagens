@@ -1,34 +1,30 @@
-**1D inversion of time-domain electromagnetic data with induced
-polarization effects for a sea-floor hydrothermal deposit**
+---
+title: 1D inversion of time-domain electromagnetic data with induced polarization effects for a sea-floor hydrothermal deposit
 
-**Masayuki Motoori¹², Lindsey J. Heagy¹, Gosuke Hoshino², Kunihito Yamamoto², Haruhisa Morozumi², Kunpei Nagase², Shingo Sugimoto²**  
-¹ University of British Columbia Geophysical Inversion Facility  
-² Japan Organization for Metals and Energy Security (JOGMEC)
+abstract: |
+    Seafloor hydrothermal deposits are polymetallic massive sulfide ore
+    deposits formed by the precipitation of metal components contained in
+    hot water ejected from the seafloor. The sea depth is 700- 2000m. Ore
+    bodies extend hundreds of meters horizontally and tens of meters
+    vertically. Ore bodies are exposed on the sea floor. Some lab-based
+    petrophysics study indicates that resistivity and chargeability are
+    diagnostic physical properties, even compared with seawater (3.0-3.5
+    S/m). Time-domain electromagnetic methods (TEM) are sensitive to
+    variations in resistivity. WISTEM (Waseda integrated seafloor
+    time-domain electromagnetic exploration) surveys have been conducted in
+    several areas. Negative transients, which are due to induced
+    polarization effects (IP), have been observed for data collected over
+    known deposits. It is important to understand the system response to
+    invert these data. The pressure vessel (PV), which contains the
+    transmitter and receivers, can impact the data. We use numerical
+    simulations to quantify these effects, and we develop a workflow for
+    estimating a linear filter which captures the effects of the PV. This
+    filter will then be used in subsequent simulations and inversions.
+    Finally, we perform one-dimensional time-domain IP inversion of the
+    field data. The estimated resistivity and IP parameters agree with
+    physical property measurements from the area.
+---
 
-
-**Summary**
-
-Seafloor hydrothermal deposits are polymetallic massive sulfide ore
-deposits formed by the precipitation of metal components contained in
-hot water ejected from the seafloor. The sea depth is 700- 2000m. Ore
-bodies extend hundreds of meters horizontally and tens of meters
-vertically. Ore bodies are exposed on the sea floor. Some lab-based
-petrophysics study indicates that resistivity and chargeability are
-diagnostic physical properties, even compared with seawater (3.0-3.5
-S/m). Time-domain electromagnetic methods (TEM) are sensitive to
-variations in resistivity. WISTEM (Waseda integrated seafloor
-time-domain electromagnetic exploration) surveys have been conducted in
-several areas. Negative transients, which are due to induced
-polarization effects (IP), have been observed for data collected over
-known deposits. It is important to understand the system response to
-invert these data. The pressure vessel (PV), which contains the
-transmitter and receivers, can impact the data. We use numerical
-simulations to quantify these effects, and we develop a workflow for
-estimating a linear filter which captures the effects of the PV. This
-filter will then be used in subsequent simulations and inversions.
-Finally, we perform one-dimensional time-domain IP inversion of the
-field data. The estimated resistivity and IP parameters agree with
-physical property measurements from the area.
 
 **Background**
 
@@ -90,8 +86,7 @@ To describe the IP effects, we refer to the chargeable model in the
 following [@pelton_mineral_1978].
 
 ![A black text on a white background AI-generated content may be
-incorrect.](./media/image1.jpg){width="4.1331856955380575in"
-height="0.6786450131233596in"}
+incorrect.](./media/image1.jpg)
 
 This study aims to test if a linear filter can capture the PV effect. We
 consider four models: 1) Whole Space Seawater Response, 2) Seawater and
@@ -110,8 +105,7 @@ Figure 1b. This demonstrates that the deconvolved linear filter captures
 the PV effect effectively, enabling 1D simulation using the filter.
 
 ![A close-up of a diagram AI-generated content may be
-incorrect.](./media/image2.jpeg){width="6.133333333333334in"
-height="2.797267060367454in"}
+incorrect.](./media/image2.jpeg)
 
 ***Figure 1** Simulation on Pressure vessel (PV) effect: (A) Acquired
 filter from models 1 and 2, (B) Test of the filter on model with IP.*
@@ -127,8 +121,7 @@ from reference data. We apply a Tikhonov inversion to stabilize the
 filter derivation.
 
 ![A group of graphs showing different types of data AI-generated content
-may be incorrect.](./media/image3.jpg){width="6.16535542432196in"
-height="3.702341426071741in"}
+may be incorrect.](./media/image3.jpg)
 
 ***Figure 2** Processed data and filter acquisition. (A) Processed fixed
 type data, (B) Processed reference measurement data, (C) Comparison
@@ -153,14 +146,12 @@ regularization terms and Gauss-Newton optimization [@oldenburg_inversion_2005]. 
 approximated using finite differences.
 
 ![A group of graphs showing different types of data AI-generated content
-may be incorrect.](./media/image4.jpg){width="6.26875in"
-height="3.104861111111111in"}
+may be incorrect.](./media/image4.jpg)
 
 ***Figure 3** Synthetic Study using the acquired filter.*
 
 ![A group of graphs showing different types of data AI-generated content
-may be incorrect.](./media/image5.jpg){width="5.963252405949256in"
-height="2.9555325896762903in"}
+may be incorrect.](./media/image5.jpg)
 
 ***Figure 4** Inversion of fixed-type data collected by WISETEM in 2018
 at the Okinawa Trough*
