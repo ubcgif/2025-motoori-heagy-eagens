@@ -158,7 +158,7 @@ at the Okinawa Trough*
 
 To assess what we can expect to recover in the inversion, we first
 conduct a synthetic study using a chargeable target layer of 20m
-thickness and with the parameters; ρ~0~: 0.08 (Ω·m), η: 0.45, τ:
+thickness and with the parameters; ρ₀: 0.08 (Ω·m), η: 0.45, τ:
 1.35×10⁻³ (sec), C: 0.7. The results are shown in Figure 3. We can see
 that there is a low resistivity and high changeability target
 concentrated in the shallow layers, where the sensitivity is the highest
@@ -194,7 +194,6 @@ Nakayama (GeoBless), Dr. Akira Saito (Emeritus Professor at Waseda
 University) and Dr. Masashi Endo (RedStoneGEO) for their advice on
 WISTEM.
 
-**References**
 ```{bibliography}
 ```
 
