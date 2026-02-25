@@ -18,12 +18,14 @@ project:
       orcid: 0000-0002-1551-5926
       affiliation: ubc
     - name: Gosuke Hoshino
+      orcid: 0009-0009-8177-7287
       affiliation: jogmec
     - name: Kunihito Yamamoto
       affiliation: jogmec
     - name: Haruhisa Morozumi
       affiliation: jogmec
-    - name: Kunpei Nagase
+    - name: Kumpei Nagase
+      orcid: 0000-0002-5593-5570
       affiliation: jogmec
     - name: Shingo Sugimoto
       affiliation: jogmec
